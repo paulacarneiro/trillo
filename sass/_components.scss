@@ -160,7 +160,6 @@
     color: var(--color-grey-light-1);
     text-decoration: none;
     text-transform: uppercase;
-    // display: block;s
     padding: 1.5rem 3rem;
     position: relative;
     z-index: 10;
@@ -184,4 +183,92 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+/////////////////////////////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+/////////////////////////////////////////////
+// HOTEL
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-light-2);
+
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem;
+  }
+
+  &__stars {
+    margin-right: auto;
+    display: flex;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+
+  }
+
+  &__location {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-location {
+    margin-right: .5rem;
+  }
+
+  &__rating {
+    color: #fff;;
+    background-color: var(--color-primary);
+    margin-left: 3rem;
+    padding: 0 2.25rem;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__rating-average {
+    font-size: 2.25rem;
+    font-weight: 300;
+  }
+
+  &__rating-count {
+    font-size: .8rem;
+    text-transform: uppercase;
+  }
+}
+
+/////////////////////////////////////////////
+// BUTTON INLINE
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  padding-bottom: 2px;
+  background-color: transparent;
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:hover {
+    color: var(--color-grey-dark-1);
+  }
 }
