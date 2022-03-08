@@ -296,6 +296,7 @@
     padding: 0 2.25rem;
     align-self: stretch;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -316,7 +317,7 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
-      margin-bottom: 0;
+      margin-bottom: .2rem;
     }
   }
 
@@ -326,6 +327,10 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: .5rem;
+    }
+
+    @media only screen and (max-width: $bp-xxsmall) {
+      line-height: 0.8rem;
     }
   }
 }
