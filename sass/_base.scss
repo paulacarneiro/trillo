@@ -18,8 +18,8 @@ Grey dark 3: #999
 
 :root {
   --color-primary: #eb2f64;
-  --color-primary-light: #FF3366;
-  --color-primary-dark: #BA265D;
+  --color-primary-light: #ff4271;
+  --color-primary-dark: #d62c6a;
 
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
@@ -31,6 +31,7 @@ Grey dark 3: #999
   --color-grey-dark-3: #999;
 
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-regular: 0 2rem 4rem rgba(0, 0, 0, .1);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
 
   --line: 1px solid var(--color-grey-light-2);
